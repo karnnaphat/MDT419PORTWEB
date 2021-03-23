@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+fieldset{
+    color:rgb(0, 0, 0);
+    border-radius: 18px;
+    font-size: 25px;
+}
+input{
+    /* background-color: black; */
+    /* cadetblue */
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    height: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
+}
+select{
+    border-radius: 8px;
+    height: 25px;
+    font-size: 16px;
+}
+select:focus{
+    outline: none;
+}
+button{
+    border-radius: 8px;
+    height: 25px;
+    font-size: 16px;
+}
+/*เมาส์จิ้ม */
+button:hover{ 
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 1px 1px rgb(199, 24, 21);
+
+}
+/*คลิกเสร็จเเล้ว*/
+button:active{
+    transform: translateY(1px);
+    box-shadow: 1px 1px 2px 0px rgb(21, 149, 199);
+
+}
+button:focus{
+    outline: none;
+}
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 1880px;
+    height: 500px;
+    border-radius: 24px;
+    border: 3px solid white;
+}
+#clock{
+    color: rgb(228, 65, 65);
+}
+
+.square {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    
+    /* border: 1px solid black; */
+}
+
+.pink{
+    background-color: rgb(226, 139, 194);
+   
+}
+.blue{
+    background-color: rgb(45, 129, 255);
+    
+}
+.yellow{
+    background-color: rgb(255, 231, 13);
+   
+}
